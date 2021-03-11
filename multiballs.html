@@ -15,7 +15,15 @@
       <div class="ball"></div>
       <div class="ball"></div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="multiballs.js"></script>
+    <script>
+      gsap.to(".ball", {
+        y:-400,  duration: 2, stagger: 0.1, repeat: 100, yoyo: true, rotate: 360
+      }); 
+
+
+
+    </script>
   </body>
 </html>
